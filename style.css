@@ -78,3 +78,215 @@ h1 {
 .inicio div {
     text-align: center;
 }
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+.sobre img {
+    width: 400px;
+}
+.sobre .conteudo {
+    width: 600px;
+    text-align: center;
+    margin-right: 100px;
+}
+.sobre .conteudo h2 {
+    font-family: "RobotoB";
+    font-size: 35px;
+}
+span {
+    color: #106EEA;
+}
+.sobre .conteudo p {
+    font-family: "Open";
+    font-size: 25px;
+    text-align: justify;
+}
+
+.caixa img {
+    width: 70px;
+    padding-bottom: 35px;
+}
+.caixa {
+    background-color: #f1f6fe;
+    border: 1px solid #8ca9ce;
+    width: 250px;
+    height: 240px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 25px;
+}
+.dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numero {
+    font-family: "Open";
+    font-weight: 700;
+    font-size: 30px;
+}
+.texto {
+    font-family: "RobotoR";
+    font-size: 25px;
+}
+.servico .produto p {
+    font-family: "RobotoB";
+    font-size: 25px;
+}
+.servico .produto {
+    border: 1px solid #8ca9ce;
+    height: 200px;
+    width: 275px;
+    margin: 50px 75px;
+    border-radius: 7px;
+}
+.todas, .produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.produto p {
+    width: 250px;
+}
+.servico {
+    text-align: center;
+}
+.servico h2 {
+    font-family: "RobotoB";
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.servico p {
+    font-family: "Open";
+    font-size: 25px;
+    margin: 0 200px;
+}
+.equipe h2 {
+    font-family: "RobotoB";
+    font-size: 35px;
+    padding-bottom: 17px;
+    margin-top: 150px;
+}
+.equipe p {
+    font-family: "Open";
+    font-size: 25px;
+}
+.equipe {
+    text-align: center;
+}
+.pessoal img {
+    width: 150px;
+}
+.pessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linha {
+    background-color: #1150a3;
+    height: 2px;
+    margin: 40px 0 80px;
+    
+}
+.servico h2 {
+    font-size: 35px;
+    margin-top: 110px;
+}
+
+.pessoal h5 {
+    font-family: "PoppinsB";
+    font-size: 25px;
+}
+.pessoal p {
+    font-family: "RobotoR";
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.pessoal {
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 30px 60px;
+}
+.pessoas .pessoal img {
+    width: 250px;
+}
+.contato h2 {
+    font-family: "RobotoB";
+    font-size: 30px;
+}
+.contato p {
+    font-family: "Open";
+    font-size: 25px;
+}
+
+.contato {
+    text-align: center;
+}
+.informacoes, .endereco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.endereco {
+    flex-direction: column;
+    border: 1.5px solid #8ca9ce;
+    height: 400px;
+    width: 430px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.endereco h4 {
+    font-family: "RobotoB";
+    font-size: 30px;
+    padding: 30px;
+}
+.endereco p {
+    font-family: "RobotoR";
+    font-size: 30px;
+    width: 300px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, textarea {
+    background-color: #e5e5e5;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 0 20px 20px 0;
+    padding: 3px 5px;
+}
+input::placeholder, textarea::placeholder {
+    color: #c1c1c1;
+    font-family: "RobotoR";
+}
+button {
+    background-color: #106EEA;
+    color: white;
+    font-family: "RobotoB";
+    font-weight: 400;
+    font-size: 30px;
+    width:300px ;
+    padding: 7px 0;
+    border-radius: 10px;
+    
+}
+textarea {
+    width: 780px;
+}
+
+
+
+
+
