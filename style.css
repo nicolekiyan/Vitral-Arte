@@ -99,6 +99,7 @@ h1 {
 }
 span {
     color: #106EEA;
+    font-size: 40px;
 }
 .sobre .conteudo p {
     font-family: "Open";
@@ -194,7 +195,8 @@ span {
 .linha {
     background-color: #1150a3;
     height: 2px;
-    margin: 40px 0 80px;
+    margin: 40px 0 100px 0px;
+   
     
 }
 .servico h2 {
@@ -222,12 +224,13 @@ span {
 .contato h2 {
     font-family: "RobotoB";
     font-size: 35px;
-    padding-top: 75px;
-    padding-bottom: 50px;
+   
 }
 .contato p {
     font-family: "Open";
     font-size: 25px;
+    margin-bottom: 80px;
+    
 }
 
 .contato {
