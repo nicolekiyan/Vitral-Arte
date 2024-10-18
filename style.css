@@ -270,7 +270,7 @@ input, textarea {
     font-size: 30px;
     border-radius: 10px;
     margin: 0 20px 20px 0;
-    padding: 3px 5px;
+    padding: 10px 7px;
 }
 input::placeholder, textarea::placeholder {
     color: #c1c1c1;
@@ -288,7 +288,7 @@ button {
     border-radius: 10px;
     height: 60px;
 }
-textarea {
+textarea, .assunto {
     width: 780px;
 }
 
@@ -297,23 +297,26 @@ footer {
     background-color: #1150a3;
     color: white;
     font-family: "Open";
-    height: 300px;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    height: 350px;
+    padding: 0px 200px;
 }
 
-footer a {
+footer nav {
     display: flex;
     flex-direction: column;
-    color: white;
-    font-size: 27px;
     align-items: center;
-    justify-content: center;
-    margin-right: 400px;
+}
+
+footer nav a {
+    color: white;
+    font-family: "Open";
+    font-size: 27px;
     font-weight: 500;
     line-height: 50px;
+
 }
 .redesP {
     display: flex;
@@ -327,4 +330,5 @@ footer a {
 .redesP h3{
     font-weight: 500;
 }
+
 
